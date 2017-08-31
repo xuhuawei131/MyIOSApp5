@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "People.h"
+#import "PeopleDB.h"
 @interface ViewController : UIViewController
 
+@property(nonatomic)PeopleDB* peopleDB;
 
+-(BOOL)checkAllKeyEditInput;
 @end
 

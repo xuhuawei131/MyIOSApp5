@@ -15,6 +15,8 @@
 		75DF89111F55569C00D53D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF890F1F55569C00D53D4D /* LaunchScreen.storyboard */; };
 		75DF891C1F55569C00D53D4D /* MyIOSApp5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF891B1F55569C00D53D4D /* MyIOSApp5Tests.m */; };
 		75DF89271F55569C00D53D4D /* MyIOSApp5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF89261F55569C00D53D4D /* MyIOSApp5UITests.m */; };
+		75DF89361F555A1100D53D4D /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF89351F555A1100D53D4D /* People.m */; };
+		75DF89391F555A3400D53D4D /* PeopleDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF89381F555A3400D53D4D /* PeopleDB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		75DF89221F55569C00D53D4D /* MyIOSApp5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIOSApp5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DF89261F55569C00D53D4D /* MyIOSApp5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyIOSApp5UITests.m; sourceTree = "<group>"; };
 		75DF89281F55569C00D53D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DF89341F555A1100D53D4D /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		75DF89351F555A1100D53D4D /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		75DF89371F555A3400D53D4D /* PeopleDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleDB.h; sourceTree = "<group>"; };
+		75DF89381F555A3400D53D4D /* PeopleDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleDB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				75DF89051F55569C00D53D4D /* AppDelegate.m */,
 				75DF89071F55569C00D53D4D /* ViewController.h */,
 				75DF89081F55569C00D53D4D /* ViewController.m */,
+				75DF89341F555A1100D53D4D /* People.h */,
+				75DF89351F555A1100D53D4D /* People.m */,
+				75DF89371F555A3400D53D4D /* PeopleDB.h */,
+				75DF89381F555A3400D53D4D /* PeopleDB.m */,
 				75DF890A1F55569C00D53D4D /* Main.storyboard */,
 				75DF890D1F55569C00D53D4D /* Assets.xcassets */,
 				75DF890F1F55569C00D53D4D /* LaunchScreen.storyboard */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DF89361F555A1100D53D4D /* People.m in Sources */,
 				75DF89091F55569C00D53D4D /* ViewController.m in Sources */,
 				75DF89061F55569C00D53D4D /* AppDelegate.m in Sources */,
+				75DF89391F555A3400D53D4D /* PeopleDB.m in Sources */,
 				75DF89031F55569C00D53D4D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
